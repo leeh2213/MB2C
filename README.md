@@ -5,5 +5,6 @@
 We thank the following repos providing helpful components/functions in our work.
 * [BraVL](https://www.bing.com/ck/a?!&&p=e234990784f11875JmltdHM9MTcxODA2NDAwMCZpZ3VpZD0yOTVjNDMxYi1mYjBlLTZhMGEtMWZjNi01MmFiZmE2ODZiNTMmaW5zaWQ9NTE5OQ&ptn=3&ver=2&hsh=3&fclid=295c431b-fb0e-6a0a-1fc6-52abfa686b53&psq=bravl&u=a1aHR0cHM6Ly9naXRodWIuY29tL0NoYW5nZGVEdS9CcmFWTA&ntb=1)
 * [NICE](https://github.com/eeyhsong/NICE-EEG)
+* [EEGStyleGAN-ADA](https://github.com/prajwalsingh/eegstylegan-ada)
 
 
