@@ -1,0 +1,7 @@
+{
+    "data_path": "/Data/Things-EEG2/Preprocessed_data_250Hz",
+    "img_directory_training": "/Data/Things-EEG2/Image_set/image_set/training_images",
+    
+    "img_directory_test": "/Data/Things-EEG2/Image_set/image_set/center_images"
+}
+

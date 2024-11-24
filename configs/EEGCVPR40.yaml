@@ -1,0 +1,18 @@
+path:
+  base_path : /data/lihao/workspace/MB2C/Data/CVPR40/,
+  train_path: train/,
+  validation_path: val/,
+  test_path : test/
+
+training:
+  embedding_dim  : 256
+  projection_dim : 256
+  input_channels : 128 # Number of EEG channels
+  num_layers     : 1
+  batch_size     : 64
+  test_batch_size: 64
+  epoch          : 4097
+  # epoch    :251 # for EEG fine-tuning
+  # epoch    :10 # for image fine-tuning
+  temperature    : 0.5
+

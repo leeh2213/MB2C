@@ -1,0 +1,30 @@
+training:
+  dnn: 'clip'
+  epoch: 1000 # 1000
+  num_sub: 10
+  batch_size: 2048
+  seed: 22
+  reproduce: false
+  pretrained: false
+  disp_interval: 10
+  n_way: 200
+
+data_augmentation:
+  lam: 0.5
+  MixRatio: 0.75
+  is_aug: true
+
+bcwgan:
+  is_gan: true
+  cyclelambda: 10
+  REG_W_LAMBDA: 1e-3
+  REG_Wz_LAMBDA: 1e-4
+  GP_LAMBDA: 10 # 10
+  CENT_LAMBDA: 1
+  clalambda: 1
+  lr: 5e-5
+  gradient_penalty :
+          center    : 0
+          mix_type  : 'real-fake'
+          reduction : 'mean'
+
